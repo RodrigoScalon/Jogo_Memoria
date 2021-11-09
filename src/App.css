@@ -1,38 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 .App {
+  max-width: 960px;
+  margin: 10px auto;
+  font-size: x-large;  
+ }
+
+body{
+
+  font-family: 'Bangers', cursive;
   text-align: center;
+  text-decoration-color: #d606cc;
+  color: #030155f3;
+  background-image: url("https://wallpapercave.com/wp/wp148216.jpg");
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  background: nome ;
+  background-color: rgb(12, 240, 42);
+  border: 2px solid rgb(119, 2, 90, 0.959); 
+  padding: 6px 12px;
+  border-radius: 10px;
+  color: rgb(114, 5, 68);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: large;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

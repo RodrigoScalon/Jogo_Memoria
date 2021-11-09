@@ -1,0 +1,50 @@
+.card {
+    position: relative; 
+}
+
+.card-grid {
+
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 7px;
+    
+  }
+  
+.card img {
+    width: 100%;
+    display: block;
+    border: 3px solid rgb(241, 20, 205);
+    border-radius: 10px;
+    
+}
+
+/* frente da carta */
+
+.card .front {
+    transform: rotateY(90deg);
+    transition: all ease-in 0.2s;
+    position: absolute;
+}
+
+.flipped .front {
+    transform: rotate(0deg);
+    transition-delay: 0.1s;
+
+}
+
+/* parte de tras */
+
+.card .back {
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
+}
+
+.flipped .back {
+    transform: rotateY(90deg);
+    transition-delay: 0s;   /* deixar no 0s senão o clique duplo vira as duas cartas*/
+
+}
+
+
+
