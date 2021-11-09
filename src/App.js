@@ -28,6 +28,7 @@ const cardImages = [ //insere as cartas em um array combinação: false torna tr
 function App() {
 
   const [cards, setCards] = useState([])
+  // eslint-disable-next-line no-unused-vars
   const [turns, setTurns] = useState(0)
   const [choiceOne, setChoiceOne] = useState(null)
   const [choiceTwo, setChoiceTwo] = useState(null)
