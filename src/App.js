@@ -1,6 +1,10 @@
 import './App.css';
 import { useEffect, useState } from 'react';
 import SingleCard from './componentes/SingleCard';
+import Footer from './footer';
+
+
+
 
 const cardImages = [ //insere as cartas em um array combinação: false torna true se der match 
 
@@ -26,6 +30,8 @@ const cardImages = [ //insere as cartas em um array combinação: false torna tr
 
 
 function App() {
+
+
 
   const [cards, setCards] = useState([])
   // eslint-disable-next-line no-unused-vars
@@ -101,10 +107,17 @@ function App() {
             flipped={card === choiceOne || card === choiceTwo || card.matched} /> //tres cenarios 
 
         ))}
-        
+
+        <div className="App">
+          <Footer />
+        </div>
       </div>
     </div>
+
+
   );
+
+
 
 }
 

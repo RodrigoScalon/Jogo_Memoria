@@ -22,19 +22,36 @@ body{
 }
 
 button {
+  
+  font-family: 'Bangers', cursive;
   background: nome ;
-  background-color: rgb(12, 240, 42);
+  background-color: #c003b7;
   border: 2px solid rgb(119, 2, 90, 0.959); 
   padding: 6px 12px;
   border-radius: 10px;
-  color: rgb(114, 5, 68);
+  color: rgb(9, 230, 46);
   font-weight: bold;
   cursor: pointer;
   font-size: large;
 
 }
 
+.footer {
 
+  text-align: center;
+  position:absolute;
+  padding: 0.5em;
+  color: rgb(9, 230, 46);
+  background-color: #c003b7;
+  font-size: medium;
+  border: 2px solid rgb(119, 2, 90, 0.959); 
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-weight: bold;
+
+  
+
+}
 
 
 

@@ -29,7 +29,7 @@
 
 .flipped .front {
     transform: rotate(0deg);
-    transition-delay: 0.1s;
+    transition-delay: 0s; /*? deixar 0s senão click duplo vira as cartas glitch.*/
 
 }
 
