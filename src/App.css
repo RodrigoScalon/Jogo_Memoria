@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 .App {
-  max-width: 960px;
-  margin: 10px auto;
-  font-size: x-large;  
+  max-width: 860px;
+  margin: 45px auto;
+  font-size: x-large;
+    
  }
 
 body{
@@ -11,7 +12,7 @@ body{
   font-family: 'Bangers', cursive;
   text-align: center;
   text-decoration-color: #d606cc;
-  color: #030155f3;
+  color: #000000;
   background-image: url("https://wallpapercave.com/wp/wp148216.jpg");
   min-width: 100%;
   min-height: 100%;
