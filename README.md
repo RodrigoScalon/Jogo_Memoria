@@ -1,6 +1,6 @@
 Um simples jogo da memória utilizando REACT.
 
-LINK: (breve)
+LINK: https://rodrigo-jogo-memoria.netlify.app/
 
 
 ![jogo](https://user-images.githubusercontent.com/88912748/140845774-31c26eee-4127-42c8-a229-5578577601e9.png)
