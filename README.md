@@ -3,5 +3,6 @@ Um simples jogo da memória utilizando REACT.  (Fazendo alguns ajustes) ...
 LINK: https://rodrigo-jogo-memoria.netlify.app/
 
 
-![jogo](https://user-images.githubusercontent.com/88912748/140845774-31c26eee-4127-42c8-a229-5578577601e9.png)
-![herois2](https://user-images.githubusercontent.com/88912748/140845778-3b3e5171-53d2-4b79-bcf8-7ad0d7021a4d.png)
+
+![Captura de tela 2021-11-10 195401](https://user-images.githubusercontent.com/88912748/141207174-1ec7716c-261d-43dc-a79b-97312b7c4f34.png)
+![Captura de tela 2021-11-10 195720](https://user-images.githubusercontent.com/88912748/141207176-beee01e6-f8ab-4851-9e0a-3c98b8da57d8.png)
