@@ -4,38 +4,36 @@
   max-width: 860px;
   margin: 45px auto;
   font-size: x-large;
-  
-    
+   
  }
 
 body{
 
   font-family: 'Bangers', cursive;
   text-align: center;
-  text-decoration-color: #83057d;
-  color: rgb(0, 112, 43);
+  color: rgb(0, 153, 59);
   background-image: url("https://wallpapercave.com/wp/wp2412873.jpg");
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  
+   
 }
 
 button {
   
   font-family: 'Bangers', cursive;
-  background: nome ;
   position:center;
   background-color: #c003b7;
-  border: 2px solid rgba(236, 228, 234, 0.959); 
+  border: 2px solid rgba(20, 155, 2, 0.959); 
   padding: 6px 12px;
   border-radius: 10px;
   color: rgb(9, 230, 46);
-  font-weight: bold;
+  font-weight: lighter;
   cursor: pointer;
   font-size: large;
+  margin-top: 3%;
 
 }
 
@@ -43,15 +41,24 @@ button {
 
   text-align: center;
   position:fixed;
-  padding: 0.5em;
-  color: rgb(208, 230, 9);
   font-size: medium;
   padding: 1px 3px;
   border-radius: 7px;
-  font-weight: bold;
+  font-weight: lighter;
   left: 0;
   bottom: 0;
   right: 0;
+  color: rgb(4, 252, 86);
+  background: rgba(0, 0, 0, 0);
+  opacity: 0.5;
+  height: 70px;
+  margin-top: -70px;
+  width: 100%;
+
+  
+    
+
+
  
   
 

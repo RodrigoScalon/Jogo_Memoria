@@ -5,8 +5,7 @@ import Footer from './componentes/footer';
 import Global from './styles/global';
 import Home from './pages/Home/Home';
 
-
-const cardImages = [
+const cardImages = [ //insere as cartas em um array combinação: false torna true se der match 
 
   { "src": "/imagens/01.jpg", matched: false },
   { "src": "/imagens/02.jpg", matched: false },
@@ -29,11 +28,6 @@ const cardImages = [
 
 
 ];
-
-//insere as cartas em um array combinação: false torna true se der match 
-
-
-
 
 function App() {
 
@@ -89,7 +83,6 @@ function App() {
 
   console.log(cards)
 
-
   const resetTurn = () => {
     setChoiceOne(null)
     setChoiceTwo(null)
@@ -97,18 +90,18 @@ function App() {
   }
 
   return (
-
+// com o clique no botão "jogar novamente" as cartas no array serão embaralhadas
     <div className="App">
 
       <h1>Jogo da Memória - Heróis</h1>
-      <button onClick={shuffleCards}> Jogar Novamente </button>
+      <button onClick={shuffleCards}> Jogar Novamente </button> 
 
       <div className="card-grid">
 
         {cards.map(card => (
-
+//percorre o map
           <SingleCard key={card.id} card={card} handleChoice={handleChoice}
-            flipped={card === choiceOne || card === choiceTwo || card.matched} /> //tres cenarios 
+            flipped={card === choiceOne || card === choiceTwo || card.matched} /> //tres cenarios de match
 
         ))}
 
