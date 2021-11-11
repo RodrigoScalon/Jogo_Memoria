@@ -30,14 +30,12 @@ const cardImages = [
 
 ];
 
- //insere as cartas em um array combinação: false torna true se der match 
+//insere as cartas em um array combinação: false torna true se der match 
 
 
 
 
 function App() {
-
-
 
   const [cards, setCards] = useState([])
   // eslint-disable-next-line no-unused-vars
@@ -117,11 +115,9 @@ function App() {
         <div className="App">
           <Footer />
         </div>
-
-          
       </div>
-      <><Global/>
-      <Home boxData={cardImages}/>
+      <><Global />
+        <Home boxData={cardImages} />
       </>
 
     </div>
