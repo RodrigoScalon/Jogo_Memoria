@@ -1,4 +1,4 @@
-Um simples jogo da memória utilizando REACT.  (Fazendo alguns ajustes) ... 
+Um simples jogo da memória utilizando REACT. 
 
 LINK: https://rodrigo-jogo-memoria.netlify.app/
 
