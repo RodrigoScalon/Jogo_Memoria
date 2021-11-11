@@ -1,12 +1,12 @@
 import './App.css';
 import { useEffect, useState } from 'react';
 import SingleCard from './componentes/SingleCard';
-import Footer from './footer';
+import Footer from './componentes/footer';
+import Global from './styles/global';
+import Home from './pages/Home/Home';
 
 
-
-
-const cardImages = [ //insere as cartas em um array combinação: false torna true se der match 
+const cardImages = [
 
   { "src": "/imagens/01.jpg", matched: false },
   { "src": "/imagens/02.jpg", matched: false },
@@ -26,7 +26,13 @@ const cardImages = [ //insere as cartas em um array combinação: false torna tr
   { "src": "/imagens/16.jpg", matched: false },
   { "src": "/imagens/17.jpg", matched: false },
   { "src": "/imagens/18.jpg", matched: false },
-]
+
+
+];
+
+ //insere as cartas em um array combinação: false torna true se der match 
+
+
 
 
 function App() {
@@ -111,14 +117,17 @@ function App() {
         <div className="App">
           <Footer />
         </div>
+
+          
       </div>
+      <><Global/>
+      <Home boxData={cardImages}/>
+      </>
+
     </div>
 
 
   );
-
-
-
 }
 
 export default App;
