@@ -2,7 +2,5 @@ Um simples jogo da memória utilizando REACT.  (Fazendo alguns ajustes) ...
 
 LINK: https://rodrigo-jogo-memoria.netlify.app/
 
-
-
-![Captura de tela 2021-11-10 195401](https://user-images.githubusercontent.com/88912748/141207174-1ec7716c-261d-43dc-a79b-97312b7c4f34.png)
-![Captura de tela 2021-11-10 195720](https://user-images.githubusercontent.com/88912748/141207176-beee01e6-f8ab-4851-9e0a-3c98b8da57d8.png)
+![Captura de tela 2021-11-11 122445](https://user-images.githubusercontent.com/88912748/141323969-7187e210-ad5d-4299-ba90-be98dbddc503.png)
+![Captura de tela 2021-11-11 122517](https://user-images.githubusercontent.com/88912748/141323975-978bf819-9f74-4101-9ce3-293fa73c6f12.png)
